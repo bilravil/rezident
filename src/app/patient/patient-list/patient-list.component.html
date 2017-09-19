@@ -1,0 +1,12 @@
+<div id="add-form">
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="list-group">
+                <a class="list-group-item" *ngFor="let item of patients" (click)=Select(item)>
+                    <h4 class="list-group-item-heading">{{item.first}} {{item.last}} {{item.middle}}</h4>
+                    <p class="list-group-item-text">{{item.sex}}</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,41 @@
+<div id="add-form">
+    <div id="header">
+        <h2>Добавление пациента</h2>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">
+            <form>
+                <md-form-field class="example-full-width">
+                    <input type="text" mdInput name="first_name" [(ngModel)]="first" placeholder="Фамилия">
+                </md-form-field>
+                <md-form-field class="example-full-width">
+                    <input type="text" mdInput name="last_name" [(ngModel)]="middle" placeholder="Имя">
+                </md-form-field>
+                <md-form-field class="example-full-width">
+                    <input type="text" mdInput name="middle_name" [(ngModel)]="last" placeholder="Отчество">
+                </md-form-field>
+                <md-form-field class="example-full-width">
+                    <input type="date" mdInput name="birthday" [(ngModel)]="birthday" placeholder="Дата рождения">
+                </md-form-field>
+                <div>
+                    <label>Пол</label><br>
+                    <md-radio-group [(ngModel)]="sex" name="sex">
+                        <md-radio-button [value]="1">М</md-radio-button>
+                        <md-radio-button [value]="2">Ж</md-radio-button>
+                    </md-radio-group>
+                </div>
+                <md-form-field class="example-full-width">
+                    <label>Номер телефона</label>
+                    <input type="text" class="input-medium bfh-phone" data-format="+7 (ddd) ddd-dd-dd" mdInput [(ngModel)]="phone" name="phone">
+                </md-form-field>
+                <div>
+                    <button md-raised-button color="primary" (click)="addItem(first,last,middle,sex)">Сохранить</button>
+                    <button md-raised-button color="warn">Отменить</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+
+</div>

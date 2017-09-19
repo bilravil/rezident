@@ -1,0 +1,90 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "bootstrap-vertical-tabs",
+        "scope": null,
+        "escapedName": "bootstrap-vertical-tabs",
+        "name": "bootstrap-vertical-tabs",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/home/ravil/projects/my-dream-app"
+    ]
+  ],
+  "_from": "bootstrap-vertical-tabs@latest",
+  "_id": "bootstrap-vertical-tabs@1.2.2",
+  "_inCache": true,
+  "_location": "/bootstrap-vertical-tabs",
+  "_nodeVersion": "4.3.2",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/bootstrap-vertical-tabs-1.2.2.tgz_1480684266048_0.1983178670052439"
+  },
+  "_npmUser": {
+    "name": "dbtek",
+    "email": "ce.demirbilek@gmail.com"
+  },
+  "_npmVersion": "3.8.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "bootstrap-vertical-tabs",
+    "scope": null,
+    "escapedName": "bootstrap-vertical-tabs",
+    "name": "bootstrap-vertical-tabs",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/bootstrap-vertical-tabs/-/bootstrap-vertical-tabs-1.2.2.tgz",
+  "_shasum": "f9176f6f3737192fb1572f1895f4264373bd0023",
+  "_shrinkwrap": null,
+  "_spec": "bootstrap-vertical-tabs",
+  "_where": "/home/ravil/projects/my-dream-app",
+  "author": {
+    "name": "İsmail Demirbilek"
+  },
+  "bugs": {
+    "url": "https://github.com/dbtek/bootstrap-vertical-tabs/issues"
+  },
+  "dependencies": {},
+  "description": "Bootstrap Vertical Tabs ![bower version](http://img.shields.io/bower/v/bootstrap-vertical-tabs.svg) =======================",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-cssmin": "^0.9.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "*",
+    "grunt-contrib-uglify": "~0.2.7",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-usemin": "^2.1.1"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "f9176f6f3737192fb1572f1895f4264373bd0023",
+    "tarball": "https://registry.npmjs.org/bootstrap-vertical-tabs/-/bootstrap-vertical-tabs-1.2.2.tgz"
+  },
+  "gitHead": "c14b59b4e5b7f439fd0337b62d85f30e201b1a02",
+  "homepage": "https://dbtek.github.io/bootstrap-vertical-tabs",
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "dbtek",
+      "email": "ce.demirbilek@gmail.com"
+    }
+  ],
+  "name": "bootstrap-vertical-tabs",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbtek/bootstrap-vertical-tabs.git"
+  },
+  "scripts": {},
+  "version": "1.2.2"
+}

@@ -1,0 +1,24 @@
+<div>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" routerLink="/">Организация</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-main">
+                <ul class="nav navbar-nav">
+                    <li><a routerLink="patient" routerLinkActive="active">Пациенты</a></li>
+                    <li><a routerLink="appoint-patient" routerLinkActive="active">Прием пациентов</a></li>
+                    <li><a routerLink="appoint-personal" routerLinkActive="active">Персонал</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div>
+        <router-outlet></router-outlet>
+    </div>
+</div>
